@@ -1,8 +1,8 @@
 function scrappingIcons(className) {
-    const elements = document.querySelectorAll(.${className});
+    const elements = document.querySelectorAll(`.${className}`);
 
     elements.forEach((element, index) => {
-        console.log(Elemento ${index + 1}:, element.textContent.trim());
+        console.log(`Elemento ${index + 1}:`, element.textContent.trim());
     });
 }
 
